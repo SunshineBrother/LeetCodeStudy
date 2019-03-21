@@ -9,7 +9,7 @@
 import Cocoa
 
 class Stack: NSObject {
-    var stackArr = [Any]()
+    private var stackArr = [Any]()
     
     //栈的大小
     func getSize() -> Int {
@@ -47,6 +47,7 @@ class Stack: NSObject {
                 res.append("\(item)")
             }
         }
+        
         return res
     }
     

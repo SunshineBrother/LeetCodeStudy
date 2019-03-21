@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2822D2652243875D00B2AA57 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2822D2642243875D00B2AA57 /* Queue.swift */; };
 		284C705E22420DB30082FBD3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C705D22420DB30082FBD3 /* main.swift */; };
 		284C7069224235860082FBD3 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C7068224235860082FBD3 /* Stack.swift */; };
-		284C706B224246210082FBD3 /* MyArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C706A224246210082FBD3 /* MyArray.swift */; };
 		284C706D224259090082FBD3 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C706C224259090082FBD3 /* Solution.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,10 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2822D2642243875D00B2AA57 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		284C705A22420DB30082FBD3 /* 栈和队列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "栈和队列"; sourceTree = BUILT_PRODUCTS_DIR; };
 		284C705D22420DB30082FBD3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		284C7068224235860082FBD3 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
-		284C706A224246210082FBD3 /* MyArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyArray.swift; sourceTree = "<group>"; };
 		284C706C224259090082FBD3 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +66,7 @@
 				284C705D22420DB30082FBD3 /* main.swift */,
 				284C7068224235860082FBD3 /* Stack.swift */,
 				284C706C224259090082FBD3 /* Solution.swift */,
-				284C706A224246210082FBD3 /* MyArray.swift */,
+				2822D2642243875D00B2AA57 /* Queue.swift */,
 			);
 			path = "栈和队列";
 			sourceTree = "<group>";
@@ -129,9 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				284C7069224235860082FBD3 /* Stack.swift in Sources */,
-				284C706B224246210082FBD3 /* MyArray.swift in Sources */,
 				284C706D224259090082FBD3 /* Solution.swift in Sources */,
 				284C705E22420DB30082FBD3 /* main.swift in Sources */,
+				2822D2652243875D00B2AA57 /* Queue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
