@@ -15,21 +15,19 @@ class Queue: NSObject {
     func getSize() -> Int {
         return queueArr.count
     }
-    //添加队列
+    //入队
     func enqueue(E:Any) {
         queueArr.append(E)
     }
-    //删除队列
-    //根据队列先进先出的原则，我们需要删除队列中的第一个元素。因为我们需要计算队列的复杂度，我们这里写2种删除队列的算法
-    //删除队列1：系统提供的remove第一个数组元素
-    func dequeue1() -> Any {
+    //出队
+    func dequeue() -> Any {
         let res = queueArr[0]
         queueArr.remove(at: 0)
         return res
     }
     //打印
     func toString() -> String {
-        var res = "Stack: "
+        var res = "Queue:     "
         for (index,item) in queueArr.enumerated() {
             if (index < queueArr.count - 1){
                 res.append("\(item),")
@@ -38,11 +36,8 @@ class Queue: NSObject {
                 res.append("\(item)")
             }
         }
-        
+        res.append(" ->tail")
         return res
     }
-    
-    
-    
-    
+  
 }
