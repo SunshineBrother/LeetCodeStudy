@@ -7,7 +7,17 @@
 //
 
 import Foundation
-
-print("Hello, World!")
-
-
+var link = LinkedList()
+for index in 0..<15{
+    link.addLast(E: "\(index)")
+}
+link.toString()
+link.delete(index: 3)
+print("删除元素")
+link.toString()
+print("添加元素")
+link.add(index: 7, E: "7777")
+link.toString()
+print("修改元素")
+link.set(index: 10, E: "10086")
+link.toString()
