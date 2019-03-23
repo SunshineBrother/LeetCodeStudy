@@ -19,7 +19,7 @@ extension Date {
 //循环队列
 let loopQuere = LoopQueue()
 let startDate1 = Date().milliStamp
-for index in 0..<100000{
+for index in 0..<100{
     loopQuere.enqueue(E: "\(index)")
     if index % 2 == 1{
        let _ = loopQuere.dequeue()

@@ -10,7 +10,7 @@ import Cocoa
 class LoopQueue: NSObject {
     private var data = [String]()
     private var front = 0,tail = 0;
-    private var size = 3 //初始的时候数组的长度空间
+    private var size = 6 //初始的时候数组的长度空间
     
     //队列中的元素
     func getSize() -> Int {
@@ -63,6 +63,8 @@ class LoopQueue: NSObject {
         var newData = [String]()
         for (index,_) in data.enumerated() {
             let item = data[(index + front) % data.count]
+            print(item)
+            print((index + front) % data.count)
             if (item == "nil"){
                 continue
             }
