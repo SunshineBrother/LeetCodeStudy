@@ -24,7 +24,6 @@ class BTS: NSObject {
         }else{
             addNode(E: E, node: root)
         }
-        
     }
     //查看二分搜索树中是否包含某个元素
     func contain(E:Int) -> Bool {
