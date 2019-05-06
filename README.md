@@ -7,5 +7,6 @@
 - [4、递归](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/递归/递归.md)
 - [5、二叉树](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/二叉树/二叉树.md)
 - [6、集合和映射](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/集合和映射/集合和映射.md)
+- [7、优先队列](https://github.com/SunshineBrother/LeetCodeStudy/tree/master/优先队列)
 
 
