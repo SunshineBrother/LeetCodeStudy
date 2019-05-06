@@ -8,5 +8,12 @@
 
 import Foundation
 
-print("Hello, World!")
+let heap = MaxHeap()
+let data = [62,41,30,28,16,22,13,19,17,15,52]
+for (_,item) in data.enumerated(){
+    heap.add(child: item)
+}
+print(heap.data)
+
+
 
