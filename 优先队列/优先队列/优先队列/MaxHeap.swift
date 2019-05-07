@@ -44,6 +44,7 @@ class MaxHeap: NSObject {
         siftUp(i: data.count - 1)
     }
     //上浮过程
+    private
     func siftUp(i:Int) {
         var child = i   //当前节点索引
         while (i > 0) && (data[child] > data[self.parent(index: child)]) {
@@ -54,6 +55,44 @@ class MaxHeap: NSObject {
         }
         
     }
+    
+    
+    //删除元素
+    func remove() -> Int {
+        let last = data[data.count - 1]
+        //索引为0的位置和最大的位置交换
+        data.swapAt(0, data.count-1)
+        //移除最后一位
+        data.removeLast()
+        //下沉
+        siftDown(i: 0)
+        
+        return last
+    }
+    //下沉过程
+    private
+    func siftDown(i:Int) {
+        var k = i
+        while leftChild(index: k) < data.count {
+            //j 是左右孩子中最大值
+            var j = leftChild(index: k)
+            if (j+1 < data.count) && (data[j+1] > data[j]){
+                j += 1
+            }
+            
+            if data[k] >= data[j] {
+                break
+            }
+            //下层
+            data.swapAt(k, j)
+            k = j
+        }
+    }
+    
+    
+    
+    
+    
   
 }
 

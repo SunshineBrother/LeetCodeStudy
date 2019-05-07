@@ -14,6 +14,10 @@ for (_,item) in data.enumerated(){
     heap.add(child: item)
 }
 print(heap.data)
+//删除
+let _ = heap.remove()
+print(heap.data)
+
 
 
 
