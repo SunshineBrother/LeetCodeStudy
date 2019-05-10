@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		284CBD962283C75E00A1BDC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 284CBD952283C75E00A1BDC1 /* main.m */; };
+		284CBDA92283D17100A1BDC1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284CBDA82283D17100A1BDC1 /* main.swift */; };
+		284CBDB02283D18400A1BDC1 /* SegmentTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284CBDAF2283D18400A1BDC1 /* SegmentTree.swift */; };
+		284CBDB42285520F00A1BDC1 /* Leetcode303.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284CBDB32285520F00A1BDC1 /* Leetcode303.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		284CBD902283C75E00A1BDC1 /* CopyFiles */ = {
+		284CBDA32283D17100A1BDC1 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +25,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		284CBD922283C75E00A1BDC1 /* 线段树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "线段树"; sourceTree = BUILT_PRODUCTS_DIR; };
-		284CBD952283C75E00A1BDC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		284CBDA52283D17100A1BDC1 /* 线段树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "线段树"; sourceTree = BUILT_PRODUCTS_DIR; };
+		284CBDA82283D17100A1BDC1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		284CBDAF2283D18400A1BDC1 /* SegmentTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentTree.swift; sourceTree = "<group>"; };
+		284CBDB32285520F00A1BDC1 /* Leetcode303.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode303.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		284CBD8F2283C75E00A1BDC1 /* Frameworks */ = {
+		284CBDA22283D17100A1BDC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +42,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		284CBD892283C75E00A1BDC1 = {
+		284CBD9C2283D17100A1BDC1 = {
 			isa = PBXGroup;
 			children = (
-				284CBD942283C75E00A1BDC1 /* 线段树 */,
-				284CBD932283C75E00A1BDC1 /* Products */,
+				284CBDA72283D17100A1BDC1 /* 线段树 */,
+				284CBDA62283D17100A1BDC1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		284CBD932283C75E00A1BDC1 /* Products */ = {
+		284CBDA62283D17100A1BDC1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				284CBD922283C75E00A1BDC1 /* 线段树 */,
+				284CBDA52283D17100A1BDC1 /* 线段树 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		284CBD942283C75E00A1BDC1 /* 线段树 */ = {
+		284CBDA72283D17100A1BDC1 /* 线段树 */ = {
 			isa = PBXGroup;
 			children = (
-				284CBD952283C75E00A1BDC1 /* main.m */,
+				284CBDA82283D17100A1BDC1 /* main.swift */,
+				284CBDAF2283D18400A1BDC1 /* SegmentTree.swift */,
+				284CBDB32285520F00A1BDC1 /* Leetcode303.swift */,
 			);
 			path = "线段树";
 			sourceTree = "<group>";
@@ -65,13 +71,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		284CBD912283C75E00A1BDC1 /* 线段树 */ = {
+		284CBDA42283D17100A1BDC1 /* 线段树 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 284CBD992283C75E00A1BDC1 /* Build configuration list for PBXNativeTarget "线段树" */;
+			buildConfigurationList = 284CBDAC2283D17100A1BDC1 /* Build configuration list for PBXNativeTarget "线段树" */;
 			buildPhases = (
-				284CBD8E2283C75E00A1BDC1 /* Sources */,
-				284CBD8F2283C75E00A1BDC1 /* Frameworks */,
-				284CBD902283C75E00A1BDC1 /* CopyFiles */,
+				284CBDA12283D17100A1BDC1 /* Sources */,
+				284CBDA22283D17100A1BDC1 /* Frameworks */,
+				284CBDA32283D17100A1BDC1 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -79,53 +85,56 @@
 			);
 			name = "线段树";
 			productName = "线段树";
-			productReference = 284CBD922283C75E00A1BDC1 /* 线段树 */;
+			productReference = 284CBDA52283D17100A1BDC1 /* 线段树 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		284CBD8A2283C75E00A1BDC1 /* Project object */ = {
+		284CBD9D2283D17100A1BDC1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = yunna;
 				TargetAttributes = {
-					284CBD912283C75E00A1BDC1 = {
+					284CBDA42283D17100A1BDC1 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 284CBD8D2283C75E00A1BDC1 /* Build configuration list for PBXProject "线段树" */;
+			buildConfigurationList = 284CBDA02283D17100A1BDC1 /* Build configuration list for PBXProject "线段树" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 284CBD892283C75E00A1BDC1;
-			productRefGroup = 284CBD932283C75E00A1BDC1 /* Products */;
+			mainGroup = 284CBD9C2283D17100A1BDC1;
+			productRefGroup = 284CBDA62283D17100A1BDC1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				284CBD912283C75E00A1BDC1 /* 线段树 */,
+				284CBDA42283D17100A1BDC1 /* 线段树 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		284CBD8E2283C75E00A1BDC1 /* Sources */ = {
+		284CBDA12283D17100A1BDC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				284CBD962283C75E00A1BDC1 /* main.m in Sources */,
+				284CBDA92283D17100A1BDC1 /* main.swift in Sources */,
+				284CBDB02283D18400A1BDC1 /* SegmentTree.swift in Sources */,
+				284CBDB42285520F00A1BDC1 /* Leetcode303.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		284CBD972283C75E00A1BDC1 /* Debug */ = {
+		284CBDAA2283D17100A1BDC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,10 +190,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		284CBD982283C75E00A1BDC1 /* Release */ = {
+		284CBDAB2283D17100A1BDC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,49 +244,53 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		284CBD9A2283C75E00A1BDC1 /* Debug */ = {
+		284CBDAD2283D17100A1BDC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z69Q2FEZS9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
-		284CBD9B2283C75E00A1BDC1 /* Release */ = {
+		284CBDAE2283D17100A1BDC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z69Q2FEZS9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		284CBD8D2283C75E00A1BDC1 /* Build configuration list for PBXProject "线段树" */ = {
+		284CBDA02283D17100A1BDC1 /* Build configuration list for PBXProject "线段树" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				284CBD972283C75E00A1BDC1 /* Debug */,
-				284CBD982283C75E00A1BDC1 /* Release */,
+				284CBDAA2283D17100A1BDC1 /* Debug */,
+				284CBDAB2283D17100A1BDC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		284CBD992283C75E00A1BDC1 /* Build configuration list for PBXNativeTarget "线段树" */ = {
+		284CBDAC2283D17100A1BDC1 /* Build configuration list for PBXNativeTarget "线段树" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				284CBD9A2283C75E00A1BDC1 /* Debug */,
-				284CBD9B2283C75E00A1BDC1 /* Release */,
+				284CBDAD2283D17100A1BDC1 /* Debug */,
+				284CBDAE2283D17100A1BDC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 284CBD8A2283C75E00A1BDC1 /* Project object */;
+	rootObject = 284CBD9D2283D17100A1BDC1 /* Project object */;
 }
