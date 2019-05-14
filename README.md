@@ -9,5 +9,6 @@
 - [6、集合和映射](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/集合和映射/集合和映射.md)
 - [7、优先队列](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/优先队列/优先队列.md)
 - [8、线段树](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/线段树/线段树.md)
+- [9、Trie](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/Trie/Trie.md)
 
 
