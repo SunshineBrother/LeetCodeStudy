@@ -8,15 +8,37 @@
 
 Trie查询每个条目的时间复杂度和字典中一共有多少条目有关，时间复杂度为O(w)，w为查询单词的长度
 
+![](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/Trie/Trie1.png)
+
+每个节点都有26个指向下个节点的指针
+```
+class Node{
+    char c;
+    Node next[26];
+}
+```
 
 
+若是不考虑语言，不同的情景，每个节点都有若干指向下个节点的指针
+
+```
+class Node{
+    char c;
+    Map<char,Node>next;
+}
+```
 
 
+![](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/Trie/Trie2.png)
 
+如上最右侧树，`pan`和`panda`都是一个单词，但是他们在一个子树上面，所以我们还要有一个`Bool`值来记录是否是一个完整的单词
 
-
-
-
+```
+Class Node{
+    bool isWord;
+    Map<char,Node>next;
+}
+```
 
 
 
