@@ -8,7 +8,21 @@
 
 import Foundation
  
-let Map = TrieMap()
-Map.add(word: "Hello")
+
+
+
+let add = ["WordDictionary","addWord","addWord","addWord","search","search","search","search"]
+let searchs = ["","bad","dad","mad","pad","bad",".ad","b.."]
+
+let Map = leetCode211()
+for item in add{
+    Map.addWord(item)
+}
+
+for item in searchs{
+    let res = Map.search(item)
+    print(res)
+}
+
 
 

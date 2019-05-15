@@ -122,35 +122,115 @@ func isPrefix(word:String) -> Bool {
 
 
 
+### LeetCode
+
+**208、实现 Trie (前缀树)**
+
+实现一个 Trie (前缀树)，包含 `insert`, `search`, 和 `startsWith` 这三个操作。
+
+示例:
+```
+Trie trie = new Trie();
+
+trie.insert("apple");
+trie.search("apple");   // 返回 true
+trie.search("app");     // 返回 false
+trie.startsWith("app"); // 返回 true
+trie.insert("app");   
+trie.search("app");     // 返回 true
+```
+
+说明:
+ - 你可以假设所有的输入都是由小写字母 a-z 构成的。
+ - 保证所有输入均为非空字符串。
+
+
+这道题的解法，我们可以直接复制上面我们的视线就可以了。
+
+
+**211、 添加与搜索单词 - 数据结构设计**
+
+设计一个支持以下两种操作的数据结构：
+```
+void addWord(word)
+bool search(word)
+```
+
+search(word) 可以搜索文字或正则表达式字符串，字符串只包含字母 . 或 a-z 。 . 可以表示任何一个字母。
+
+示例:
+
+```
+addWord("bad")
+addWord("dad")
+addWord("mad")
+search("pad") -> false
+search("bad") -> true
+search(".ad") -> true
+search("b..") -> true
+```
+
+说明:
+你可以假设所有单词都是由小写字母 a-z 组成的。
 
 
 
+```
+class leetCode211: NSObject {
+private var root = Node() //节点
+
+func addWord(_ word: String) {
+var cur = root
+for item in word {
+//如果下个节点不包含，添加
+if !cur.next.keys.contains(item){
+let node = Node()
+cur.next[item] = node
+}
+//找到下一个节点
+cur = cur.next[item] ?? Node()
+}
+
+//如果已经存在这个单词了，不处理
+//如果不存在这个单词，size++，isWord设置为true
+if !cur.isWord {
+cur.isWord = true
+}
+}
+
+func search(_ word: String) -> Bool {
+let result = recursiveSearch(word: word, cur: root, index: 0)
+return result
+}
+
+func recursiveSearch(word: String,cur:Node,index:Int) -> Bool {
+if index == word.count {
+return cur.isWord
+}
+
+let c:Character = word.first!
+let a:Character = "."
+if c != a {
+if !cur.next.keys.contains(c){
+return false
+}
+
+return recursiveSearch(word: word, cur: cur.next[c]!, index: index+1)
+}else{
+for key in cur.next.keys{
+if(recursiveSearch(word: word, cur: cur.next[key]!, index: index+1)){
+return true
+}
+}
+return false
+}
+
+}
+
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
 
 
 
