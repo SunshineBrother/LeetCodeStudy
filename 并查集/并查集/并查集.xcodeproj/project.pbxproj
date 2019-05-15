@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		283E0367228BDE72001DFA2E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E0366228BDE72001DFA2E /* main.swift */; };
+		283E036E228BE78D001DFA2E /* UnionFind1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E036D228BE78D001DFA2E /* UnionFind1.swift */; };
+		283E0370228BEFF7001DFA2E /* UnionFind2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E036F228BEFF7001DFA2E /* UnionFind2.swift */; };
+		283E0372228BF608001DFA2E /* UnionFind3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E0371228BF608001DFA2E /* UnionFind3.swift */; };
+		283E0374228BF94E001DFA2E /* UnionFind4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E0373228BF94E001DFA2E /* UnionFind4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		283E0363228BDE72001DFA2E /* 并查集 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "并查集"; sourceTree = BUILT_PRODUCTS_DIR; };
 		283E0366228BDE72001DFA2E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		283E036D228BE78D001DFA2E /* UnionFind1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionFind1.swift; sourceTree = "<group>"; };
+		283E036F228BEFF7001DFA2E /* UnionFind2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionFind2.swift; sourceTree = "<group>"; };
+		283E0371228BF608001DFA2E /* UnionFind3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionFind3.swift; sourceTree = "<group>"; };
+		283E0373228BF94E001DFA2E /* UnionFind4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionFind4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				283E0366228BDE72001DFA2E /* main.swift */,
+				283E036D228BE78D001DFA2E /* UnionFind1.swift */,
+				283E036F228BEFF7001DFA2E /* UnionFind2.swift */,
+				283E0371228BF608001DFA2E /* UnionFind3.swift */,
+				283E0373228BF94E001DFA2E /* UnionFind4.swift */,
 			);
 			path = "并查集";
 			sourceTree = "<group>";
@@ -119,6 +131,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283E0372228BF608001DFA2E /* UnionFind3.swift in Sources */,
+				283E0374228BF94E001DFA2E /* UnionFind4.swift in Sources */,
+				283E036E228BE78D001DFA2E /* UnionFind1.swift in Sources */,
+				283E0370228BEFF7001DFA2E /* UnionFind2.swift in Sources */,
 				283E0367228BDE72001DFA2E /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
