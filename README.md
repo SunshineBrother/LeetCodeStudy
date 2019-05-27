@@ -18,5 +18,6 @@
 - [8、线段树](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/线段树/线段树.md)
 - [9、Trie](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/Trie/Trie.md)
 - [10、并查集](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/并查集/并查集.md)
+- [11、平衡二叉树](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/平衡二叉树/平衡二叉树.md)
 
 
