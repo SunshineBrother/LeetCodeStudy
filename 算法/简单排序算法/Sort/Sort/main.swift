@@ -10,7 +10,7 @@ import Foundation
 
 
 let arr = [5, 4, 6, 3, 2, 1]
-let bubble = Sorting().BubbleSorting(arr: arr)
+let bubble = Sorting().BubbleSorting1(arr: arr)
 
 
 

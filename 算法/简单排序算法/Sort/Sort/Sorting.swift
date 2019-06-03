@@ -20,7 +20,7 @@ class Sorting: NSObject {
                     sortArr.swapAt(j, j+1)
                 }
                 
-                print(sortArr)
+//                print(sortArr)
                 
             }
             print("-------------------")
@@ -31,7 +31,30 @@ class Sorting: NSObject {
     }
     
     
-    
+    //冒泡排序
+    func BubbleSorting1(arr:[Int]) -> Array<Int>{
+        var sortArr:[Int] = arr
+        print(sortArr)
+        var swapped = false
+        for i in 0..<sortArr.count {
+            swapped = false
+            for j in 0..<sortArr.count-1-i{
+                if sortArr[j] > sortArr[j+1]{
+                    sortArr.swapAt(j, j+1)
+                    swapped = true
+                }
+//                print(sortArr)
+            }
+            if swapped == false{
+                break
+            }
+            
+            print("-------------------")
+            print(sortArr)
+        }
+        
+        return sortArr
+    }
     
     
     
