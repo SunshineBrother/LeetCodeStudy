@@ -21,3 +21,11 @@
 - [11、平衡二叉树](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/平衡二叉树/平衡二叉树.md)
 - [12、哈希表](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/哈希表/哈希表.md)
 
+
+
+
+***********************************************
+
+## 算法
+
+- [1、简单排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/简单排序算法/简单排序算法.md)
