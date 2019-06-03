@@ -8,10 +8,10 @@
 
 import Cocoa
 
-class Sorting: NSObject {
+class BubbleSorting: NSObject {
 
     //冒泡排序
-    func BubbleSorting(arr:[Int]) -> Array<Int>{
+    func sorting(arr:[Int]) -> Array<Int>{
         var sortArr:[Int] = arr
         print(sortArr)
         for i in 0..<sortArr.count {
@@ -32,7 +32,7 @@ class Sorting: NSObject {
     
     
     //冒泡排序
-    func BubbleSorting1(arr:[Int]) -> Array<Int>{
+    func sorting1(arr:[Int]) -> Array<Int>{
         var sortArr:[Int] = arr
         print(sortArr)
         var swapped = false

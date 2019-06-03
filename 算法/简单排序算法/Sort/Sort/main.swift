@@ -10,8 +10,10 @@ import Foundation
 
 
 let arr = [5, 4, 6, 3, 2, 1]
-let bubble = Sorting().BubbleSorting1(arr: arr)
-
+//let bubble = BubbleSorting().sorting1(arr: arr)
+//let insert = InsertionSort().sorting(arr: arr)
+let select = SelectionSort().sorting(arr: arr)
+print(select)
 
 
 
