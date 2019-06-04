@@ -4,11 +4,11 @@
 
 
 ## 工具
-- [如何直观形象地树状打印一棵二叉树](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/打印树/如何直观形象地树状打印一棵二叉树？.md)
+- [如何直观形象地树状打印一棵二叉树](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/数据结构/打印树/如何直观形象地树状打印一棵二叉树？.md)
 
 ## 数据结构
 
-- [1、算法效率的度量](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/数据结构/算法效率的度量.md)
+- [1、算法效率的度量](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法效率的度量.md)
 - [2、栈和队列](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/数据结构/栈和队列/栈和队列.md)
 - [3、链表](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/数据结构/链表/链表.md)
 - [4、递归](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/数据结构/递归/递归.md)
