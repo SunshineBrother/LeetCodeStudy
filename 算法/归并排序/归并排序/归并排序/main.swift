@@ -8,5 +8,9 @@
 
 import Foundation
 
-print("Hello, World!")
+let arr = [8, 4, 5, 7, 1, 3, 6, 2]
+
+let sort = MergeSort().sort(arr: arr)
+print(sort)
+
 

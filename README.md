@@ -27,6 +27,40 @@
 ***********************************************
 
 ## 算法
+
+在开始之前我们先来写一个帮助测试的函数
+```
+// 生成有n个元素的随机数组,每个元素的随机范围为[rangeL, rangeR]
+
+func generateRandomArray(count:Int,rangL:Int,rangR:Int) -> Array<Int> {
+
+    if rangR <= rangL{
+        fatalError("取值范围不准确")
+    }
+
+    var arr:[Int] = Array()
+    for _ in 0..<count {
+        let arc = rangR - rangL + 1
+        let item:Int = Int(arc4random()) % arc + rangL
+        arr.append(item)
+    }
+
+    return arr
+}
+
+
+
+// 判断arr数组是否有序
+func isSorted(arr:[Int]) -> Bool {
+    for i in 0..<arr.count-1 {
+        if arr[i] > arr[i+1] {
+            return false
+        }
+    }
+    return true
+}
+```
+
 - [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)
 - [1、简单排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/简单排序算法/简单排序算法.md)
 - [2、归并排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/归并排序/归并排序.md)
