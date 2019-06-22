@@ -37,6 +37,12 @@ class quickSort: NSObject {
     //返回p，使得arr[l...p-1] < arr[p]  arr[p+1...r] > arr[p]
     private
     func partition(l:Int,r:Int) -> Int {
+        
+        //=======================================
+        let rand = Int(arc4random()) % (r - l + 1) + l
+        arr.swapAt(rand, l)
+        //======================================
+        
         let v = arr[l]
         
         //arr[l+1...j] < v   arr[j+1...i] > v

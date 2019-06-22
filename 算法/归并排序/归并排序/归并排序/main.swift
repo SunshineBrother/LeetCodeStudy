@@ -8,7 +8,7 @@
 
 import Foundation
 
-let arr = generateRandomArray(count: 10000, rangL: 0, rangR: 100)
+let arr = generateRandomArray(count: 100000, rangL: 0, rangR: 100)
 
 let starttime1 = Date().timeIntervalSince1970
 let sort1 = SelectionSort().sorting(arr: arr)
