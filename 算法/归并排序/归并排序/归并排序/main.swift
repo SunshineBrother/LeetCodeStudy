@@ -8,9 +8,14 @@
 
 import Foundation
 
-let arr = [8, 4, 5, 7, 1, 3, 6, 2]
+let arr = generateRandomArray(count: 10000, rangL: 0, rangR: 100)
 
-let sort = MergeSort().sort(arr: arr)
-print(sort)
+let starttime1 = Date().timeIntervalSince1970
+let sort1 = SelectionSort().sorting(arr: arr)
+let endTime1 = Date().timeIntervalSince1970
+let starttime2 = Date().timeIntervalSince1970
+let sort2 = MergeSort().sort(arr: arr)
+let endTime2 = Date().timeIntervalSince1970
 
-
+print("选择排序：\(endTime1 - starttime1)")
+print("归并排序：\(endTime2 - starttime2)")

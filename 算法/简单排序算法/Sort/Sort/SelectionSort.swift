@@ -22,7 +22,7 @@ class SelectionSort: NSObject {
             }
             
             sortArr.swapAt(i, minIndex)
-            print(sortArr)
+            
         }
         
         

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284CAABD22A763B000EEDB72 /* SortTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284CAABC22A763B000EEDB72 /* SortTestHelper.swift */; };
+		284CAAC422A7E0CC00EEDB72 /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284CAAC322A7E0CC00EEDB72 /* SelectionSort.swift */; };
 		2865EBFB22A610BD00EE0163 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2865EBFA22A610BD00EE0163 /* main.swift */; };
 		2865EC0222A617A400EE0163 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2865EC0122A617A400EE0163 /* MergeSort.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		284CAABC22A763B000EEDB72 /* SortTestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortTestHelper.swift; sourceTree = "<group>"; };
+		284CAAC222A7672900EEDB72 /* 归并排序-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "归并排序-Bridging-Header.h"; sourceTree = "<group>"; };
+		284CAAC322A7E0CC00EEDB72 /* SelectionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectionSort.swift; path = "../../../简单排序算法/Sort/Sort/SelectionSort.swift"; sourceTree = "<group>"; };
 		2865EBF722A610BD00EE0163 /* 归并排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "归并排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2865EBFA22A610BD00EE0163 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2865EC0122A617A400EE0163 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
@@ -61,6 +66,9 @@
 			children = (
 				2865EBFA22A610BD00EE0163 /* main.swift */,
 				2865EC0122A617A400EE0163 /* MergeSort.swift */,
+				284CAAC322A7E0CC00EEDB72 /* SelectionSort.swift */,
+				284CAABC22A763B000EEDB72 /* SortTestHelper.swift */,
+				284CAAC222A7672900EEDB72 /* 归并排序-Bridging-Header.h */,
 			);
 			path = "归并排序";
 			sourceTree = "<group>";
@@ -97,6 +105,7 @@
 				TargetAttributes = {
 					2865EBF622A610BD00EE0163 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -122,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284CAAC422A7E0CC00EEDB72 /* SelectionSort.swift in Sources */,
 				2865EC0222A617A400EE0163 /* MergeSort.swift in Sources */,
+				284CAABD22A763B000EEDB72 /* SortTestHelper.swift in Sources */,
 				2865EBFB22A610BD00EE0163 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,9 +259,17 @@
 		2865EBFF22A610BD00EE0163 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z69Q2FEZS9;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "归并排序/归并排序-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -258,9 +277,16 @@
 		2865EC0022A610BD00EE0163 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z69Q2FEZS9;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "归并排序/归并排序-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;

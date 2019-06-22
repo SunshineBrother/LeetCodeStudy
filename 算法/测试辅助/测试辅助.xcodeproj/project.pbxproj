@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		284CAAB022A759D100EEDB72 /* 测试辅助 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "测试辅助"; sourceTree = BUILT_PRODUCTS_DIR; };
 		284CAAB322A759D100EEDB72 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		284CAABA22A75A4800EEDB72 /* SortTestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortTestHelper.swift; sourceTree = "<group>"; };
+		284CAABA22A75A4800EEDB72 /* SortTestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SortTestHelper.swift; path = "../../归并排序/归并排序/归并排序/SortTestHelper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
