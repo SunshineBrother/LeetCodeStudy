@@ -62,16 +62,27 @@ func isSorted(arr:[Int]) -> Bool {
 ```
 
 
+![](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/sort.png)
+
 排序算法优越评价有三个指标，执行效率、内存消耗、稳定性，一般来讲，在分析效率时会从几个方面来衡量：
 - 时间复杂度。会从最好、最坏和平均情况三个来分析；
 - 时间复杂度的系数、常数 、低阶。在对同一阶时间复杂度的排序算法性能对比的时候，我们就要把系数、常数、低阶也考虑进来。
 - 比较次数和交换（或移动）次数。
 
 
-- [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)
+
 - [1、冒泡排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/冒泡排序/冒泡排序.md)
 - [2、插入排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/插入排序/插入排序.md)
 - [3、选择排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/选择排序/选择排序.md)
-
+- [4、希尔排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/希尔排序/希尔排序.md)
 - [5、归并排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/归并排序/归并排序.md)
 - [6、快速排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/快速排序/快速排序.md)
+- [7、堆排序](https://github.com/SunshineBrother/LeetCodeStudy/tree/master/算法/堆排序)
+- [8、计数排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/计数排序/计数排序.md)
+- [9、桶排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/桶排序/桶排序.md)
+- [10、基数排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/基数排序/基数排序.md)
+
+
+
+
+排序算法参考：[十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)
