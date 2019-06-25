@@ -61,7 +61,15 @@ func isSorted(arr:[Int]) -> Bool {
 }
 ```
 
+
+排序算法优越评价有三个指标，执行效率、内存消耗、稳定性，一般来讲，在分析效率时会从几个方面来衡量：
+- 时间复杂度。会从最好、最坏和平均情况三个来分析；
+- 时间复杂度的系数、常数 、低阶。在对同一阶时间复杂度的排序算法性能对比的时候，我们就要把系数、常数、低阶也考虑进来。
+- 比较次数和交换（或移动）次数。
+
+
 - [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)
-- [1、简单排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/简单排序算法/简单排序算法.md)
+- [1、冒泡排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/冒泡排序/冒泡排序.md)
+- [2、插入排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/插入排序/插入排序.md)
 - [2、归并排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/归并排序/归并排序.md)
 - [3、快速排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/快速排序/快速排序.md)
