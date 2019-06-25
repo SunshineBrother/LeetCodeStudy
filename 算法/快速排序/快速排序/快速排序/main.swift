@@ -19,7 +19,7 @@ let endTime1 = Date().timeIntervalSince1970
 
 
 
-let arr1 = generateRandomArray(count: 10000, rangL: 0, rangR: 10000)
+let arr1 = generateRandomArray(count: 10000, rangL: 0, rangR: 10)
 let starttime2 = Date().timeIntervalSince1970
 let _ = quickSort().quickSort(arr: arr1)
 let endTime2 = Date().timeIntervalSince1970
