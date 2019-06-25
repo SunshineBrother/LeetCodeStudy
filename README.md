@@ -71,5 +71,7 @@ func isSorted(arr:[Int]) -> Bool {
 - [十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)
 - [1、冒泡排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/冒泡排序/冒泡排序.md)
 - [2、插入排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/插入排序/插入排序.md)
-- [2、归并排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/归并排序/归并排序.md)
-- [3、快速排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/快速排序/快速排序.md)
+- [3、选择排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/选择排序/选择排序.md)
+
+- [5、归并排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/归并排序/归并排序.md)
+- [6、快速排序](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/快速排序/快速排序.md)
