@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2852F95022C342C5004725CE /* SortTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2852F94F22C342C5004725CE /* SortTestHelper.swift */; };
 		28654D1322BE0969001639DC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28654D1222BE0969001639DC /* main.swift */; };
 		28654D1A22BE09C5001639DC /* quickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28654D1922BE09C5001639DC /* quickSort.swift */; };
-		28654D1C22BE1459001639DC /* SortTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28654D1B22BE1459001639DC /* SortTestHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2852F94F22C342C5004725CE /* SortTestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SortTestHelper.swift; path = "../../../希尔排序/希尔排序/希尔排序/SortTestHelper.swift"; sourceTree = "<group>"; };
 		28654D0F22BE0969001639DC /* 快速排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "快速排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28654D1222BE0969001639DC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		28654D1922BE09C5001639DC /* quickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quickSort.swift; sourceTree = "<group>"; };
-		28654D1B22BE1459001639DC /* SortTestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SortTestHelper.swift; path = "../../../归并排序/归并排序/归并排序/SortTestHelper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				28654D1222BE0969001639DC /* main.swift */,
-				28654D1B22BE1459001639DC /* SortTestHelper.swift */,
+				2852F94F22C342C5004725CE /* SortTestHelper.swift */,
 				28654D1922BE09C5001639DC /* quickSort.swift */,
 			);
 			path = "快速排序";
@@ -126,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28654D1322BE0969001639DC /* main.swift in Sources */,
-				28654D1C22BE1459001639DC /* SortTestHelper.swift in Sources */,
+				2852F95022C342C5004725CE /* SortTestHelper.swift in Sources */,
 				28654D1A22BE09C5001639DC /* quickSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

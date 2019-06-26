@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		284CAAB422A759D100EEDB72 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284CAAB322A759D100EEDB72 /* main.swift */; };
-		284CAABB22A75A4800EEDB72 /* SortTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284CAABA22A75A4800EEDB72 /* SortTestHelper.swift */; };
+		2852F94322C31164004725CE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2852F94222C31164004725CE /* main.swift */; };
+		2852F94A22C3117B004725CE /* ShellSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2852F94922C3117B004725CE /* ShellSort.swift */; };
+		2852F94C22C34016004725CE /* SortTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2852F94B22C34016004725CE /* SortTestHelper.swift */; };
+		2852F94E22C3422B004725CE /* InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2852F94D22C3422B004725CE /* InsertionSort.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		284CAAAE22A759D100EEDB72 /* CopyFiles */ = {
+		2852F93D22C31164004725CE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,13 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		284CAAB022A759D100EEDB72 /* 测试辅助 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "测试辅助"; sourceTree = BUILT_PRODUCTS_DIR; };
-		284CAAB322A759D100EEDB72 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		284CAABA22A75A4800EEDB72 /* SortTestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SortTestHelper.swift; path = "../../希尔排序/希尔排序/希尔排序/SortTestHelper.swift"; sourceTree = "<group>"; };
+		2852F93F22C31164004725CE /* 希尔排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "希尔排序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2852F94222C31164004725CE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2852F94922C3117B004725CE /* ShellSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellSort.swift; sourceTree = "<group>"; };
+		2852F94B22C34016004725CE /* SortTestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortTestHelper.swift; sourceTree = "<group>"; };
+		2852F94D22C3422B004725CE /* InsertionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InsertionSort.swift; path = "../../../简单排序算法/Sort/Sort/InsertionSort.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		284CAAAD22A759D100EEDB72 /* Frameworks */ = {
+		2852F93C22C31164004725CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,97 +44,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		284CAAA722A759D100EEDB72 = {
+		2852F93622C31164004725CE = {
 			isa = PBXGroup;
 			children = (
-				284CAAB222A759D100EEDB72 /* 测试辅助 */,
-				284CAAB122A759D100EEDB72 /* Products */,
+				2852F94122C31164004725CE /* 希尔排序 */,
+				2852F94022C31164004725CE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		284CAAB122A759D100EEDB72 /* Products */ = {
+		2852F94022C31164004725CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				284CAAB022A759D100EEDB72 /* 测试辅助 */,
+				2852F93F22C31164004725CE /* 希尔排序 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		284CAAB222A759D100EEDB72 /* 测试辅助 */ = {
+		2852F94122C31164004725CE /* 希尔排序 */ = {
 			isa = PBXGroup;
 			children = (
-				284CAAB322A759D100EEDB72 /* main.swift */,
-				284CAABA22A75A4800EEDB72 /* SortTestHelper.swift */,
+				2852F94222C31164004725CE /* main.swift */,
+				2852F94B22C34016004725CE /* SortTestHelper.swift */,
+				2852F94922C3117B004725CE /* ShellSort.swift */,
+				2852F94D22C3422B004725CE /* InsertionSort.swift */,
 			);
-			path = "测试辅助";
+			path = "希尔排序";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		284CAAAF22A759D100EEDB72 /* 测试辅助 */ = {
+		2852F93E22C31164004725CE /* 希尔排序 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 284CAAB722A759D100EEDB72 /* Build configuration list for PBXNativeTarget "测试辅助" */;
+			buildConfigurationList = 2852F94622C31164004725CE /* Build configuration list for PBXNativeTarget "希尔排序" */;
 			buildPhases = (
-				284CAAAC22A759D100EEDB72 /* Sources */,
-				284CAAAD22A759D100EEDB72 /* Frameworks */,
-				284CAAAE22A759D100EEDB72 /* CopyFiles */,
+				2852F93B22C31164004725CE /* Sources */,
+				2852F93C22C31164004725CE /* Frameworks */,
+				2852F93D22C31164004725CE /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "测试辅助";
-			productName = "测试辅助";
-			productReference = 284CAAB022A759D100EEDB72 /* 测试辅助 */;
+			name = "希尔排序";
+			productName = "希尔排序";
+			productReference = 2852F93F22C31164004725CE /* 希尔排序 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		284CAAA822A759D100EEDB72 /* Project object */ = {
+		2852F93722C31164004725CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = yunna;
 				TargetAttributes = {
-					284CAAAF22A759D100EEDB72 = {
+					2852F93E22C31164004725CE = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 284CAAAB22A759D100EEDB72 /* Build configuration list for PBXProject "测试辅助" */;
+			buildConfigurationList = 2852F93A22C31164004725CE /* Build configuration list for PBXProject "希尔排序" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 284CAAA722A759D100EEDB72;
-			productRefGroup = 284CAAB122A759D100EEDB72 /* Products */;
+			mainGroup = 2852F93622C31164004725CE;
+			productRefGroup = 2852F94022C31164004725CE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				284CAAAF22A759D100EEDB72 /* 测试辅助 */,
+				2852F93E22C31164004725CE /* 希尔排序 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		284CAAAC22A759D100EEDB72 /* Sources */ = {
+		2852F93B22C31164004725CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				284CAAB422A759D100EEDB72 /* main.swift in Sources */,
-				284CAABB22A75A4800EEDB72 /* SortTestHelper.swift in Sources */,
+				2852F94A22C3117B004725CE /* ShellSort.swift in Sources */,
+				2852F94E22C3422B004725CE /* InsertionSort.swift in Sources */,
+				2852F94C22C34016004725CE /* SortTestHelper.swift in Sources */,
+				2852F94322C31164004725CE /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		284CAAB522A759D100EEDB72 /* Debug */ = {
+		2852F94422C31164004725CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -191,7 +199,7 @@
 			};
 			name = Debug;
 		};
-		284CAAB622A759D100EEDB72 /* Release */ = {
+		2852F94522C31164004725CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,7 +253,7 @@
 			};
 			name = Release;
 		};
-		284CAAB822A759D100EEDB72 /* Debug */ = {
+		2852F94722C31164004725CE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -255,7 +263,7 @@
 			};
 			name = Debug;
 		};
-		284CAAB922A759D100EEDB72 /* Release */ = {
+		2852F94822C31164004725CE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -268,25 +276,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		284CAAAB22A759D100EEDB72 /* Build configuration list for PBXProject "测试辅助" */ = {
+		2852F93A22C31164004725CE /* Build configuration list for PBXProject "希尔排序" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				284CAAB522A759D100EEDB72 /* Debug */,
-				284CAAB622A759D100EEDB72 /* Release */,
+				2852F94422C31164004725CE /* Debug */,
+				2852F94522C31164004725CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		284CAAB722A759D100EEDB72 /* Build configuration list for PBXNativeTarget "测试辅助" */ = {
+		2852F94622C31164004725CE /* Build configuration list for PBXNativeTarget "希尔排序" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				284CAAB822A759D100EEDB72 /* Debug */,
-				284CAAB922A759D100EEDB72 /* Release */,
+				2852F94722C31164004725CE /* Debug */,
+				2852F94822C31164004725CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 284CAAA822A759D100EEDB72 /* Project object */;
+	rootObject = 2852F93722C31164004725CE /* Project object */;
 }
