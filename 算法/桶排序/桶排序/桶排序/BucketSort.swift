@@ -1,35 +1,23 @@
-# 桶排序（BucketSort）
+//
+//  BucketSort.swift
+//  桶排序
+//
+//  Created by yunna on 2019/6/28.
+//  Copyright © 2019年 yunna. All rights reserved.
+//https://mp.weixin.qq.com/s/vn3KiV-ez79FmbZ36SX9lg
 
-桶排序是计数排序的升级版。它利用了函数的映射关系，高效与否的关键就在于这个映射函数的确定。为了使桶排序更加高效，我们需要做到这两点：
+import Cocoa
 
-- 在额外空间充足的情况下，尽量增大桶的数量
-- 使用的映射函数能够将输入的 N 个数据均匀的分配到 K 个桶中
-
-**算法步骤**
-
-- 设置固定数量的空桶
-- 把数据放到对应的桶中
-- 对每个不为空的桶中数据进行排序。
-- 拼接不为空的桶中数据，得到结果
-
-
-
-![](https://github.com/SunshineBrother/LeetCodeStudy/blob/master/算法/桶排序/桶排序.gif)
-
-
-## 代码
-
-```
 class BucketSort: NSObject {
-
+    
     ///桶容量大小
     private
     var bucket = 5
-
+    
     func sort(arr:[Int]) -> [Int] {
         var max:Int = arr[0]   //最大值
         var min:Int = arr[0]   //最小值
-
+        
         for item in arr {
             //找出最大值
             max = max < item ? item : max
@@ -42,7 +30,7 @@ class BucketSort: NSObject {
         for _ in 0..<buckets {
             bucketList.append([Int]())
         }
-
+        
         // 将数据分配到各个桶中
         for item in arr {
             let index = (item - min) / bucket
@@ -50,24 +38,24 @@ class BucketSort: NSObject {
             items.append(item)
             bucketList[index] = items
         }
-
+        
         // 对每个桶进行排序，这里使用了插入排序
         var resultList:[Int] = Array()
         for items in bucketList {
             let sorts = insertSorting(arr: items)
             resultList += sorts
         }
-
-
+        
+        
         return resultList
     }
-
-
+    
+    
     ///获取桶的个数
     func bucketCount(min:Int,max:Int,arr:[Int]) -> Int {
         let num1 = (max - min + 1) / bucket
         let num2 = (max - min + 1) % 5 > 0 ? 1 : 0
-
+        
         return num1 + num2
     }
     //插入排序
@@ -76,18 +64,10 @@ class BucketSort: NSObject {
         for i in 0..<sortArr.count {
             for j in stride(from: i, to: 0, by: -1) {
                 if sortArr[j] < sortArr[j-1]{
-                sortArr.swapAt(j, j-1)
+                    sortArr.swapAt(j, j-1)
                 }
             }
         }
         return sortArr
     }
 }
-```
-
-
-
-
-
- 
-
