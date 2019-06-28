@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		28DFCD2322C5AC61007978B7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFCD2222C5AC61007978B7 /* main.swift */; };
 		28DFCD2A22C5B0F7007978B7 /* CountingSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFCD2922C5B0F7007978B7 /* CountingSort.swift */; };
+		28DFCD2C22C5B4FA007978B7 /* SortTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DFCD2B22C5B4FA007978B7 /* SortTestHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		28DFCD1F22C5AC61007978B7 /* 计数排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "计数排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DFCD2222C5AC61007978B7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		28DFCD2922C5B0F7007978B7 /* CountingSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingSort.swift; sourceTree = "<group>"; };
+		28DFCD2B22C5B4FA007978B7 /* SortTestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SortTestHelper.swift; path = "../../../测试辅助/测试辅助/SortTestHelper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				28DFCD2222C5AC61007978B7 /* main.swift */,
 				28DFCD2922C5B0F7007978B7 /* CountingSort.swift */,
+				28DFCD2B22C5B4FA007978B7 /* SortTestHelper.swift */,
 			);
 			path = "计数排序";
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28DFCD2A22C5B0F7007978B7 /* CountingSort.swift in Sources */,
+				28DFCD2C22C5B4FA007978B7 /* SortTestHelper.swift in Sources */,
 				28DFCD2322C5AC61007978B7 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
