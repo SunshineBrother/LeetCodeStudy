@@ -85,4 +85,7 @@ func isSorted(arr:[Int]) -> Bool {
 
 
 
-排序算法参考：[十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)
+排序算法参考：
+[十大经典排序算法](https://www.runoob.com/w3cnote/ten-sorting-algorithm.html)
+
+[五分钟学算法](https://mp.weixin.qq.com/s/VFssRgok_LrtLdGAgpmmNg)
