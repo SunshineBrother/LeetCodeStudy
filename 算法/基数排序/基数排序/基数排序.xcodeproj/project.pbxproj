@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2822934A22C74D39002FEF36 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2822934922C74D39002FEF36 /* main.swift */; };
 		2822935122C74D43002FEF36 /* radixSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2822935022C74D43002FEF36 /* radixSort.swift */; };
+		2822935322C75BA7002FEF36 /* SortTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2822935222C75BA7002FEF36 /* SortTestHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		2822934622C74D39002FEF36 /* 基数排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "基数排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2822934922C74D39002FEF36 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2822935022C74D43002FEF36 /* radixSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radixSort.swift; sourceTree = "<group>"; };
+		2822935222C75BA7002FEF36 /* SortTestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SortTestHelper.swift; path = "../../../测试辅助/测试辅助/SortTestHelper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				2822934922C74D39002FEF36 /* main.swift */,
 				2822935022C74D43002FEF36 /* radixSort.swift */,
+				2822935222C75BA7002FEF36 /* SortTestHelper.swift */,
 			);
 			path = "基数排序";
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2822935122C74D43002FEF36 /* radixSort.swift in Sources */,
+				2822935322C75BA7002FEF36 /* SortTestHelper.swift in Sources */,
 				2822934A22C74D39002FEF36 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

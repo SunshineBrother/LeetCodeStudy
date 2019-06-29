@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
-
+//let arr:[Int] = [10,5,19,17,57,24,101,67,81]
+let arr = generateRandomArray(count: 50, rangL: 0, rangR: 100)
+print(arr)
+let res = radixSort().sort(arr: arr)
+print(res)
