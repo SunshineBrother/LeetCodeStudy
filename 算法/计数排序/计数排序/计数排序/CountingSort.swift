@@ -9,7 +9,6 @@
 import Cocoa
 
 class CountingSort: NSObject {
-
     func sort(arr:[Int]) -> [Int] {
         var max:Int = arr[0]   //最大值
         var min:Int = arr[0]   //最小值

@@ -9,7 +9,6 @@
 import Cocoa
 
 class radixSort: NSObject {
-
     private
     var data:[Int] = Array()
     

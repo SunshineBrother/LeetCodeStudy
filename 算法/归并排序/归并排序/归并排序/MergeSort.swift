@@ -60,12 +60,7 @@ class MergeSort: NSObject {
                 sortArr[k] = aux[j-l]
                 j += 1
             }
-            
         }
- 
-    
     }
-    
-    
     
 }

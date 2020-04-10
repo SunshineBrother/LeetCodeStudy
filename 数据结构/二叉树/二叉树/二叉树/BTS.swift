@@ -64,7 +64,6 @@ class BTS: NSObject {
         if size == 0 {
             return 10086
         }
-        
         return maximum(node: root)
     }
     // 从二分搜索树中删除最大值所在节点, 返回最大值

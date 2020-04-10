@@ -20,12 +20,8 @@ class SelectionSort: NSObject {
                     minIndex = j
                 }
             }
-            
             sortArr.swapAt(i, minIndex)
-            
         }
-        
-        
         return sortArr
     }
 }
