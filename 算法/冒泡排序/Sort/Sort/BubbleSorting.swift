@@ -19,8 +19,6 @@ class BubbleSorting: NSObject {
                     sortArr.swapAt(j, j+1)
                 }
             }
-            print("-------------------")
-            print(sortArr)
         }
         return sortArr
     }
@@ -42,14 +40,7 @@ class BubbleSorting: NSObject {
             if swapped == false{
                 break
             }
-            
-            print("-------------------")
-            print(sortArr)
         }
-        
         return sortArr
     }
-    
-    
-    
 }
