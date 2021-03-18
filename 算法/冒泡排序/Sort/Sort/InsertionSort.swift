@@ -13,6 +13,7 @@ class InsertionSort: NSObject {
         var sortArr = arr
         for i in 0..<sortArr.count {
             for j in stride(from: i, to: 0, by: -1) {
+                print(j)
                 if sortArr[j] < sortArr[j-1]{
                     sortArr.swapAt(j, j-1)
                 }
